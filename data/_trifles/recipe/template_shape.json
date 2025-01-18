@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " r ",
+        "rgr",
+        " r "
+    ],
+    "key": {
+        "r": "redstone",
+        "g": "dirt"
+    },
+    "result": {
+        "id": "dirt",
+        "components": {},
+        "count": 1
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "#minecraft:bundles",
+        "salmon"
+    ],
+    "result": {
+        "id": "warped_fungus_on_a_stick",
+        "components": {
+            "item_name": "{\"text\":\"Cat in a Bag\",\"color\":\"aqua\",\"italic\":false}",
+            "lore": [
+                "{\"text\":\"Meows when a creeper is nearby\",\"color\":\"white\",\"italic\":false}",
+                "{\"text\":\"Rightclick to toggle\",\"color\":\"yellow\",\"italic\":false}",
+                "{\"text\":\" \"}",
+                "{\"text\":\"“A happy arrangement:\",\"color\":\"gray\"}",
+                "{\"text\":\"many people prefer cats to other”\",\"color\":\"gray\"}",
+                "{\"text\":\"people, and many cats prefer\",\"color\":\"gray\"}",
+                "{\"text\":\"people to other cats.”\",\"color\":\"gray\"}",
+                "{\"text\":\"– Mason Cooley\",\"color\":\"gray\"}",
+                "{\"text\":\" \"}",
+                "{\"text\":\"ᴛᴇxᴛᴜʀᴇᴅ ʙʏ ɢᴏᴛᴜʀᴀ\"}"
+            ],
+            "item_model": "trifles:pocketcat",
+            "custom_data": {
+                "trifles": {
+                    "is_gadget": true,
+                    "type": "pocketcat"
+                }
+            }
+        }
+    }
+}

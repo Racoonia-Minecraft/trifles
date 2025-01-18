@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "dirt",
+        "golden_apple"
+    ],
+    "result": {
+        "id": "dirt",
+        "components": {}
+    }
+}

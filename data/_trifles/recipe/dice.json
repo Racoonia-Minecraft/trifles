@@ -1,0 +1,40 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " r ",
+        "rpr",
+        " r "
+    ],
+    "key": {
+        "r": "red_dye",
+        "p": "#minecraft:planks"
+    },
+    "result": {
+        "id": "ghast_spawn_egg",
+        "components": {
+            "item_name": "{\"text\":\"Dice\",\"color\":\"aqua\",\"italic\":false}",
+            "lore": [
+                "{\"text\":\"Play some dice games!\",\"color\":\"white\",\"italic\":false}",
+                "{\"text\":\" \"}",
+                "{\"text\":\"“God does not play dice.”\",\"color\":\"gray\"}",
+                "{\"text\":\"- Albert Einstein\",\"color\":\"gray\"}",
+                "{\"text\":\" \"}",
+                "{\"text\":\"ᴛᴇxᴛᴜʀᴇᴅ ʙʏ ꜱɪᴍᴏɴ₁₀₂\"}"
+            ],
+            "item_model": "trifles:dice",
+            "custom_data": {
+                "trifles": {
+                    "is_gadget": true,
+                    "type": "dice"
+                }
+            },
+            "entity_data": {
+                "id": "marker",
+                "Tags": [
+                    "trifles.dice_spawn"
+                ]
+            }
+        },
+        "count": 1
+    }
+}

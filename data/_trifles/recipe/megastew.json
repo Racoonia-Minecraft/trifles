@@ -1,0 +1,31 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "bowl",
+        "cooked_beef",
+        "cooked_porkchop",
+        "potato",
+        "carrot"
+    ],
+    "result": {
+        "id": "minecraft:warped_fungus_on_a_stick",
+        "components": {
+            "item_name": "{\"text\":\"Mega Stew\",\"color\":\"aqua\",\"italic\":false}",
+            "lore": [
+                "{\"text\":\"INFINITE STEW!!!\",\"color\":\"white\",\"italic\":false}",
+                "{\"text\":\" \"}",
+                "{\"text\":\"“Stew's so comforting on a rainy day.”\",\"color\":\"gray\"}",
+                "{\"text\":\"- unknown\",\"color\":\"gray\"}",
+                "{\"text\":\" \"}",
+                "{\"text\":\"ᴛᴇxᴛᴜʀᴇᴅ ʙʏ ꜱɪᴍᴏɴ₁₀₂\"}"
+            ],
+            "item_model": "trifles:megastew",
+            "custom_data": {
+                "trifles": {
+                    "is_gadget": true,
+                    "type": "megastew"
+                }
+            }
+        }
+    }
+}
