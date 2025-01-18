@@ -1,40 +1,35 @@
 {
-  "display": {
-    "icon": {
-      "id": "potion",
-      "components": {
-        "custom_model_data": 4000107,
-        "custom_data": {
-          "opendata": {
-            "no_override": 1
-          }
-        },
-        "potion_contents": {
-          "custom_color": 16777215
-        }
-      }
-    },
-    "title": "Quali-tea",
-    "description": "Sipping tea",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": true
-  },
-  "parent": "trifles:cup",
-  "criteria": {
-    "requirement": {
-      "trigger": "consume_item",
-      "conditions": {
-        "item": {
-          "components": {
-            "custom_data": {
-              "trifles": {
-                "type": "tea"
-              }
+    "display": {
+        "icon": {
+            "id": "potion",
+            "components": {
+                "item_model": "trifles:bible",
+                "potion_contents": {
+                    "custom_color": 16777215
+                }
             }
-          }
+        },
+        "title": "Quali-tea",
+        "description": "Sipping tea",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "trifles:cup",
+    "criteria": {
+        "requirement": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "custom_data": {
+                            "trifles": {
+                                "type": "tea"
+                            }
+                        }
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }
