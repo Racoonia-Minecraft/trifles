@@ -1,5 +1,3 @@
-#declare entity #out
-
 # Racoonia quotes
 execute if score #out trifles.random matches 51 run tellraw @s [{"text":"“Warum hab ich eigentlich so wenig Geld?” "},{"text":"(maxderprof 7:23)", "color": "gray"}]
 execute if score #out trifles.random matches 52 run tellraw @s [{"text":"“Reto: Nenne einen Kosenamen. Simon: 'BUBAZ!'” "},{"text":"(simon10247 7:23)", "color": "gray"}]

@@ -1,6 +1,3 @@
-#declare objective racoonia.math
-#declare entity #2
-
 scoreboard players add @s trifles.pocketcatDisabled 1
 scoreboard players operation @s trifles.pocketcatDisabled %= #2 racoonia.math
 playsound minecraft:entity.cat.purr master @s[tag=!global.ignore,tag=!global.ignore.gui] ~ ~ ~ 1 1

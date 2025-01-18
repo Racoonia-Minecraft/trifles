@@ -1,5 +1,3 @@
-#declare entity #out
-
 # Bible quotes
 execute if score #out trifles.random matches 1 run tellraw @s [{"text":"“Ich lauf über!” "},{"text":"(Racooder 6:23)", "color": "gray"}]
 execute if score #out trifles.random matches 2 run tellraw @s [{"text":"“Du kannst auch einfach 20% besser werden!” "},{"text":"(maxderprof 3:23)", "color": "gray"}]

@@ -1,5 +1,3 @@
-#declare entity #out
-
 # Bible quotes
 execute if score #out trifles.random matches 21 run tellraw @s [{"text":"“Und Gott sprach: Es werde Licht! Und es ward Licht.” "},{"text":"(Genesis 1:3)", "color": "gray"}]
 execute if score #out trifles.random matches 22 run tellraw @s [{"text":"“Der HERR ist mein Hirte, nichts wird mir fehlen.” "},{"text":"(Psalm 23:1)", "color": "gray"}]

@@ -1,5 +1,3 @@
-#declare entity #out
-
 execute store result score #out trifles.random run random value 1..6
 
 execute if score #out trifles.random matches 1 run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:player_head",count:1,components:{profile:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmUyMmMyOThlN2M2MzM2YWYxNzkwOWFjMWYxZWU2ODM0YjU4YjFhM2NjOTlhYmEyNTVjYTdlYWViNDc2MTczIn19fQ=="}]}}}]}

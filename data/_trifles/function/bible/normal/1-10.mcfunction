@@ -1,5 +1,3 @@
-#declare entity #out
-
 # Bible quotes
 execute if score #out trifles.random matches 1 run tellraw @s [{"text":"“Ich bin bei euch alle Tage, bis an das Ende der Welt.” "},{"text":"(Matthäus 28:20)", "color": "gray"}]
 execute if score #out trifles.random matches 2 run tellraw @s [{"text":"“Diese Männer sind nicht betrunken, wie einige von euch meinen. Es ist ja erst neun Uhr morgens.” "},{"text":"(Apostelgeschichte 2:15)", "color": "gray"}]

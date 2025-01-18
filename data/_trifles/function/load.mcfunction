@@ -1,6 +1,3 @@
-#declare storage racoonia:datapacks
-#declare entity trifles
-
 scoreboard objectives add trifles.fungusClick minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add trifles.hasPocketcat dummy
 scoreboard objectives add trifles.pocketcatDisabled dummy

@@ -1,5 +1,3 @@
-#declare entity #out
-
 # Racoonia quotes
 execute if score #out trifles.random matches 41 run tellraw @s [{"text":"“Schiebe ich mir lieber einen Hamster in den Arsch oder ficke ich lieber die falsche Schwester” "},{"text":"(Michael 10:22)", "color": "gray"}]
 execute if score #out trifles.random matches 42 run tellraw @s [{"text":"“Ich nehme die Zähennägel eines 90 jährigen Mannes” "},{"text":"(jonmoja 10:22)", "color": "gray"}]

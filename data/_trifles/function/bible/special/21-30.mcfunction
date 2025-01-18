@@ -1,5 +1,3 @@
-#declare entity #out
-
 # Racoonia quotes
 execute if score #out trifles.random matches 21 run tellraw @s [{"text":"“Dein Arsch war in der Schüssel drin, ich hab's gesehen” "},{"text":"(gotura 5:23)", "color": "gray"}]
 execute if score #out trifles.random matches 22 run tellraw @s [{"text":"“Lass mal stehen, damit er auch guten Stuhl hat!” "},{"text":"(jonmoja 5:23)", "color": "gray"}]

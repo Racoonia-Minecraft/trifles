@@ -1,5 +1,3 @@
-#declare entity #out
-
 # Bible quotes
 execute if score #out trifles.random matches 11 run tellraw @s [{"text":"“Ein Fest ist zum Lachen da, Wein macht das Leben fröhlich, und Geld ist die Antwort auf alles.” "},{"text":"(Sirach 10:19)", "color": "gray"}]
 execute if score #out trifles.random matches 12 run tellraw @s [{"text":"“Es gibt keine größere Liebe, als wenn einer sein Leben für seine Freunde hingibt.” "},{"text":"(Johannes 15:13)", "color": "gray"}]

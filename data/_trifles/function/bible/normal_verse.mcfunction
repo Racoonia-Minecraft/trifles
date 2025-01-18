@@ -1,5 +1,3 @@
-#declare entity #out random
-
 execute store result score #out trifles.random run random value 1..25
 
 execute if score #out trifles.random matches 1..10 run function _trifles:bible/normal/1-10

@@ -1,5 +1,3 @@
-#declare entity #out
-
 # Racoonia quotes
 execute if score #out trifles.random matches 31 run tellraw @s [{"text":"“Simon, nimm mal den Dick aus dem Mund!” "},{"text":"(Michael 2:22)", "color": "gray"}]
 execute if score #out trifles.random matches 32 run tellraw @s [{"text":"“Der ist aber auch nicht das Grün vom Blatt” "},{"text":"(Racooder 3:22)", "color": "gray"}]

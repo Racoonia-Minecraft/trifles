@@ -1,10 +1,3 @@
-#declare entity #pocketcat
-#declare entity #megastew
-#declare entity #dice
-#declare entity #hot_beverages
-#declare entity #bible
-#declare entity #interaction_block
-
 # Handle
     # Mega Stew
     scoreboard players remove @a[scores={trifles.megastewCooldown=1..}] trifles.megastewCooldown 1
@@ -63,3 +56,4 @@
     execute as @e[type=item,tag=trifles.interaction_block.item_craft] at @s run function _trifles:craft/interaction_block
 
 schedule function _trifles:main 20t
+

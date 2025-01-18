@@ -1,5 +1,3 @@
-#declare entity #out
-
 # Racoonia quotes
 execute if score #out trifles.random matches 11 run tellraw @s [{"text":"“Wo finde ich diesen 'Any Key'?” "},{"text":"(maxderprof 1:22)", "color": "gray"}]
 execute if score #out trifles.random matches 12 run tellraw @s [{"text":"“Stimmt ja, meine Seele hat ja keine Gedanken” "},{"text":"(Michael 7:23)", "color": "gray"}]
