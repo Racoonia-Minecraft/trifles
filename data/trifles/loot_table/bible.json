@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "{\"text\":\"Bible\",\"color\":\"aqua\",\"italic\":false}",
+                                "lore": [
+                                    "{\"text\":\"The holy scriptures\",\"color\":\"white\",\"italic\":false}",
+                                    "{\"text\":\" \"}",
+                                    "{\"text\":\"“I am with you always,\",\"color\":\"gray\"}",
+                                    "{\"text\":\"even unto the end of the world.”\",\"color\":\"gray\"}",
+                                    "{\"text\":\"(Matthew 28:20)\",\"color\":\"gray\"}",
+                                    "{\"text\":\" \"}",
+                                    "{\"text\":\"ᴛᴇxᴛᴜʀᴇᴅ ʙʏ ꜱɪᴍᴏɴ₁₀₂\"}"
+                                ],
+                                "item_model": "trifles:bible",
+                                "custom_data": {
+                                    "trifles": {
+                                        "is_gadget": true,
+                                        "type": "bible"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

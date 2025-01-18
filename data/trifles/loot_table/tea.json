@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "{\"text\":\"Tea\",\"color\":\"aqua\",\"italic\":false}",
+                                "lore": [
+                                    "{\"text\":\"A cup of tea\",\"color\":\"white\",\"italic\":false}",
+                                    "{\"text\":\" \"}",
+                                    "{\"text\":\"“Where there's tea there's hope.”\",\"color\":\"gray\",\"italic\":true}",
+                                    "{\"text\":\"— Arthur Wing Pinero”\",\"color\":\"gray\"}",
+                                    "{\"text\":\" \"}",
+                                    "{\"text\":\"ᴛᴇxᴛᴜʀᴇᴅ ʙʏ ɢᴏᴛᴜʀᴀ\"}"
+                                ],
+                                "item_model": "trifles:tea",
+                                "custom_data": {
+                                    "trifles": {
+                                        "is_gadget": true,
+                                        "type": "tea",
+                                        "group": "hot_beverage"
+                                    }
+                                },
+                                "potion_contents": {
+                                    "custom_effects": [
+                                        {
+                                            "id": "slow_falling",
+                                            "amplifier": 0,
+                                            "duration": 200
+                                        }
+                                    ],
+                                    "custom_color": 16777215
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

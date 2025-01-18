@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "glass_bottle",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "{\"text\":\"Empty Cup\",\"color\":\"aqua\",\"italic\":false}",
+                                "lore": [
+                                    "{\"text\":\"A empty cup\",\"color\":\"white\",\"italic\":false}",
+                                    "{\"text\":\" \"}",
+                                    "{\"text\":\"“Your cup is neither half full\",\"color\":\"gray\",\"italic\":true}",
+                                    "{\"text\":\"nor half empty. It's just empty!”\",\"color\":\"gray\"}",
+                                    "{\"text\":\"- unknown\",\"color\":\"gray\"}",
+                                    "{\"text\":\" \"}",
+                                    "{\"text\":\"ᴛᴇxᴛᴜʀᴇᴅ ʙʏ ɢᴏᴛᴜʀᴀ\"}"
+                                ],
+                                "item_model": "trifles:cup",
+                                "custom_data": {
+                                    "trifles": {
+                                        "is_gadget": true,
+                                        "type": "cup"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
