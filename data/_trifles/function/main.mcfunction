@@ -14,4 +14,4 @@
     execute as @e[type=interaction,tag=trifles.block_button_interaction] at @s if block ~ ~ ~ air run function _trifles:block_button/break
     execute as @e[type=interaction,tag=trifles.block_lever_interaction] at @s if block ~ ~ ~ air run function _trifles:block_lever/break
 
-schedule function _trifles:main 20t
+schedule function _trifles:main 10t
