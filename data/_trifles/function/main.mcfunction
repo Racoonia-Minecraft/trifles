@@ -7,7 +7,7 @@
     scoreboard players remove @a[scores={trifles.pocketcatCooldown=1..}] trifles.pocketcatCooldown 1
 
     # Dice
-    execute as @e[tag=trifles.dice_spawn] at @s run function _trifles:dice/spawn
+    execute as @e[type=marker,tag=trifles.dice_spawn] at @s run function _trifles:dice/place
 
     # Block Button
     execute as @e[type=marker,tag=trifles.interaction_block_spawn] at @s run function _trifles:interaction_block/spawn
