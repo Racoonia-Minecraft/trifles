@@ -8,7 +8,7 @@
         "carrot"
     ],
     "result": {
-        "id": "minecraft:warped_fungus_on_a_stick",
+        "id": "warped_fungus_on_a_stick",
         "components": {
             "item_name": "{\"text\":\"Mega Stew\",\"color\":\"aqua\",\"italic\":false}",
             "lore": [

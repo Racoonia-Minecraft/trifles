@@ -1,4 +1,4 @@
-playsound minecraft:block.note_block.hat block @a[distance=..20] ~ ~ ~ .2
+playsound block.note_block.hat block @a[distance=..20] ~ ~ ~ .2
 
 execute store result score #random trifles.temp run random value 0..3
 

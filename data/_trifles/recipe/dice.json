@@ -7,7 +7,7 @@
     ],
     "key": {
         "r": "red_dye",
-        "p": "#minecraft:planks"
+        "p": "#planks"
     },
     "result": {
         "id": "ghast_spawn_egg",

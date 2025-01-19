@@ -1,7 +1,7 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        "#minecraft:bundles",
+        "#bundles",
         "salmon"
     ],
     "result": {
