@@ -5,4 +5,4 @@ summon interaction ~ ~ ~ {Tags:["trifles.block_lever_interaction","trifles.block
 
 particle witch ~ ~ ~ .4 .4 .4 0 50 normal @a
 playsound block.stone_button.click_off master @a ~ ~ ~ 1 0
-tellraw @a[distance=..10,tag=!global.ignore,tag=!global.ignore.gui] ["",{"text":"The block lever needs a adapter in form of a target block next to it","color":"yellow"}]
+tellraw @a[distance=..10] ["",{"text":"The block lever needs a adapter in form of a target block next to it","color":"yellow"}]
