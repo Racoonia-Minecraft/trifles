@@ -8,7 +8,7 @@ scoreboard objectives add trifles.diceAnimation dummy
 scoreboard objectives add trifles.animationLoop dummy
 scoreboard objectives add trifles.block_button_off dummy
 scoreboard objectives add trifles.block_lever dummy
-scoreboard objectives add trifles.random dummy
+scoreboard objectives add trifles.temp dummy
 scoreboard objectives add trifles.enderEyeHoldClick minecraft.used:minecraft.ender_eye
 
 # scoreboard for enabeling trifles crafting
