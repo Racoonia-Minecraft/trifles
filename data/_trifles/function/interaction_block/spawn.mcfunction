@@ -1,13 +1,9 @@
-execute unless block ~ ~ ~ stone_button unless block ~ ~ ~ lever run function _trifles:interaction_block/fail
+function _trifles:log {text:"Spawning interaction block..."}
 
-execute if block ~ ~ ~ stone_button if entity @e[type=interaction,tag=trifles.block_interaction,distance=..1] if block ~ ~ ~ stone_button run function _trifles:interaction_block/fail
-execute if block ~ ~ ~ stone_button unless entity @e[type=interaction,tag=trifles.block_interaction,distance=..1] unless block ~ ~ ~ stone_button run function _trifles:interaction_block/fail
-execute if block ~ ~ ~ stone_button if entity @e[type=interaction,tag=trifles.block_interaction,distance=..1] unless block ~ ~ ~ stone_button run function _trifles:interaction_block/fail
-execute if block ~ ~ ~ stone_button unless entity @e[type=interaction,tag=trifles.block_interaction,distance=..1] if block ~ ~ ~ stone_button run function _trifles:block_button/succsess
+execute if block ~ ~ ~ stone_button run function _trifles:block_button/get_pos
+execute if block ~ ~ ~ lever run function _trifles:block_lever/get_pos
 
-execute if block ~ ~ ~ lever if entity @e[type=interaction,tag=trifles.block_interaction,distance=..1] if block ~ ~ ~ lever run function _trifles:interaction_block/fail
-execute if block ~ ~ ~ lever unless entity @e[type=interaction,tag=trifles.block_interaction,distance=..1] unless block ~ ~ ~ lever run function _trifles:interaction_block/fail
-execute if block ~ ~ ~ lever if entity @e[type=interaction,tag=trifles.block_interaction,distance=..1] unless block ~ ~ ~ lever run function _trifles:interaction_block/fail
-execute if block ~ ~ ~ lever unless entity @e[type=interaction,tag=trifles.block_interaction,distance=..1] if block ~ ~ ~ lever run function _trifles:block_lever/succsess
+execute if entity @s[tag=trifles.interaction_check_success] run function _trifles:interaction_block/success
+execute unless entity @s[tag=trifles.interaction_check_success] run function _trifles:interaction_block/fail
 
 kill @s
