@@ -3,8 +3,8 @@
     scoreboard players remove @a[scores={trifles.megastewCooldown=1..}] trifles.megastewCooldown 1
 
     # Pocketcat
-    execute as @a[scores={trifles.hasPocketcat=1..}] unless score @s trifles.pocketcatDisabled matches 1 at @s run function _trifles:pocketcat/handle
-    scoreboard players remove @a[scores={trifles.pocketcatCooldown=1..}] trifles.pocketcatCooldown 1
+    execute as @a[tag=trifles.has_pocketcat] unless score @s trifles.pocketcatDisabled matches 1 at @s run function _trifles:pocketcat/handle
+    scoreboard players remove @a[scores={trifles.pocketcatCooldown=1..}] trifles.pocketcatCooldown 5
 
     # Dice
     execute as @e[type=marker,tag=trifles.dice_spawn] at @s run function _trifles:dice/place
