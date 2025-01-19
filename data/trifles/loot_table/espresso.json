@@ -10,7 +10,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"text\":\"Espresso\",\"color\":\"aqua\",\"italic\":false}",
+                                "custom_name": "{\"text\":\"Espresso\",\"color\":\"aqua\",\"italic\":false}",
                                 "lore": [
                                     "{\"text\":\"A cup of strong espresso\",\"color\":\"white\",\"italic\":false}",
                                     "{\"text\":\" \"}",

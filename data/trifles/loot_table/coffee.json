@@ -10,7 +10,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"text\":\"Coffee\",\"color\":\"aqua\",\"italic\":false}",
+                                "custom_name": "{\"text\":\"Coffee\",\"color\":\"aqua\",\"italic\":false}",
                                 "lore": [
                                     "{\"text\":\"A nice hot cup of coffee\",\"color\":\"white\",\"italic\":false}",
                                     "{\"text\":\" \"}",

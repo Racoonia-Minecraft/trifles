@@ -10,7 +10,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"text\":\"Hot Chocolate\",\"color\":\"aqua\",\"italic\":false}",
+                                "custom_name": "{\"text\":\"Hot Chocolate\",\"color\":\"aqua\",\"italic\":false}",
                                 "lore": [
                                     "{\"text\":\"A cup of hot chocolate\",\"color\":\"white\",\"italic\":false}",
                                     "{\"text\":\" \"}",
