@@ -1,7 +1,7 @@
-function _trifles:log {text:"Detected interaction right click"}
+function _trifles:log {text:"Handling targeted interaction..."}
 
-advancement revoke @s only _trifles:click/interaction_right
+execute as @s[tag=trifles.dice_interaction] at @s run function _trifles:dice/interaction
+execute as @s[tag=trifles.block_button_interaction, scores={trifles.block_button_off=2}] at @s run function _trifles:block_button/click
+execute as @s[tag=trifles.block_lever_interaction] at @s run function _trifles:block_lever/click
 
-tag @s add this
-execute as @e[type=interaction,distance=..6] run function _trifles:interaction/find_targeted
-tag @s remove this
+data remove entity @s interaction
