@@ -6,7 +6,7 @@ scoreboard objectives add trifles.block_button_off dummy
 scoreboard objectives add trifles.block_lever dummy
 scoreboard objectives add trifles.temp dummy
 scoreboard objectives add trifles.dice_state dummy
-scoreboard objectives add trifles.dice_timer dummy
+scoreboard objectives add trifles.timer dummy
 
 # scoreboard for enabeling trifles crafting
 scoreboard objectives add trifles.enabled dummy

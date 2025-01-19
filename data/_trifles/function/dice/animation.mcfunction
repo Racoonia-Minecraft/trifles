@@ -1,19 +1,18 @@
-scoreboard players remove @s trifles.dice_timer 1
+scoreboard players remove @s trifles.timer 1
 
-execute if score @s trifles.dice_timer matches 1 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 6 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 11 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 15 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 19 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 22 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 26 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 28 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 31 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 33 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 35 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 37 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 39 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 41 run function _trifles:dice/turn/handle
-execute if score @s trifles.dice_timer matches 43.. run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 0 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 5 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 10 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 14 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 18 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 21 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 24 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 27 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 30 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 32 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 34 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 36 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 38 run function _trifles:dice/turn/handle
+execute if score @s trifles.timer matches 40.. run function _trifles:dice/turn/handle
 
-execute if score @s trifles.dice_timer matches ..0 run tag @s remove trifles.dice_rolling
+execute if score @s trifles.timer matches ..0 run tag @s remove trifles.dice_rolling
