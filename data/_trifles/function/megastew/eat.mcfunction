@@ -1,3 +1,5 @@
+function _trifles:log {text:"Eating megastew..."}
+
 playsound minecraft:entity.generic.eat master @a[distance=..10,tag=!global.ignore,tag=!global.ignore.gui] ~ ~ ~
 playsound minecraft:entity.generic.drink master @a[distance=..10,tag=!global.ignore,tag=!global.ignore.gui] ~ ~ ~
 playsound minecraft:entity.player.burp master @a[distance=..10,tag=!global.ignore,tag=!global.ignore.gui] ~ ~ ~

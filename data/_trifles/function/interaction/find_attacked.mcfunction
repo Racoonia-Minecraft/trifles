@@ -1,3 +1,5 @@
+function _trifles:log {text:"Searching for attacked interaction..."}
+
 scoreboard players set #bool racoonia.math 0
 execute on attacker store result score #bool racoonia.math if entity @s[tag=this]
 

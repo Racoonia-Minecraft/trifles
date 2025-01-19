@@ -1,3 +1,5 @@
+function _trifles:log {text:"Handling block lever click..."}
+
 scoreboard players add @s trifles.block_lever 1
 
 execute as @s[scores={trifles.block_lever=1}] run function _trifles:block_lever/on

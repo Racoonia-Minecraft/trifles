@@ -1,3 +1,5 @@
+function _trifles:log {text:"Detected interaction right click"}
+
 advancement revoke @s only _trifles:click/interaction_right
 
 tag @s add this

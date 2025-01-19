@@ -1,3 +1,5 @@
+function _trifles:log {text:"Triggered espresso drinking"}
+
 advancement revoke @s only _trifles:drink/espresso
 
 tag @s add trifles.cup_replace

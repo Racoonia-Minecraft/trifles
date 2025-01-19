@@ -1,3 +1,5 @@
+function _trifles:log {text:"Breaking block lever..."}
+
 function _trifles:block_lever/off
 loot spawn ~ ~ ~ loot trifles:interaction_block
 summon item ~ ~ ~ {PickupDelay:10,Item:{id:"minecraft:lever",count:1}}

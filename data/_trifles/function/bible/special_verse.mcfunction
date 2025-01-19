@@ -1,3 +1,5 @@
+function _trifles:log {text:"Getting special verse..."}
+
 execute store result score #out trifles.random run random value 1..61
 
 execute if score #out trifles.random matches 1..10 run function _trifles:bible/special/1-10

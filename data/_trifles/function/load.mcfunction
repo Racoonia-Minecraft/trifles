@@ -16,4 +16,5 @@ scoreboard objectives add trifles.enabled dummy
 
 function _trifles:main
 function _trifles:pocketcat/check
-function _trifles:click/detection
+
+function _trifles:log {text:"Finished loading"}
