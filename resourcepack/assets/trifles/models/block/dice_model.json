@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "up": "trifles:block/dice_side/1",
+        "north": "trifles:block/dice_side/2",
+        "west": "trifles:block/dice_side/3",
+        "south": "trifles:block/dice_side/5",
+        "east": "trifles:block/dice_side/4",
+        "down": "trifles:block/dice_side/6",
+        "particle": "trifles:block/dice_side/1"
+    }
+  }
