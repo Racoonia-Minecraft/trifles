@@ -1,4 +1,4 @@
-function _trifles:log {text:"Triggered hot chocolate drinking"}
+function _trifles:log {text:"Triggered hot chocolate drinking",meta:"_trifles:drink/chocolate"}
 
 advancement revoke @s only _trifles:drink/chocolate
 

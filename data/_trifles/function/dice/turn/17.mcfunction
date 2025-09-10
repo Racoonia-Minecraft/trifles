@@ -1,3 +1,5 @@
+function _trifles:log {text:"Dice is in state 17",meta:"_trifles:dice/turn/17"}
+
 execute if score #random trifles.temp matches 0 run function _trifles:dice/state/9
 execute if score #random trifles.temp matches 1 run function _trifles:dice/state/23
 execute if score #random trifles.temp matches 2 run function _trifles:dice/state/3

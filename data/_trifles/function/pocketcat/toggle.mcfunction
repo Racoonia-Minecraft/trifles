@@ -1,4 +1,4 @@
-function _trifles:log {text:"Toggling pocketcat..."}
+function _trifles:log {text:"Toggling pocketcat...",meta:"_trifles:function/pocketcat/toggle"}
 
 execute if entity @s[tag=trifles.has_pocketcat] run tag @s add trifles.switch_pocketcat
 execute if entity @s[tag=!trifles.has_pocketcat] run tag @s add trifles.has_pocketcat

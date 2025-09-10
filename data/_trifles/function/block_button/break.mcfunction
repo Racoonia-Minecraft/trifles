@@ -1,4 +1,4 @@
-function _trifles:log {text:"Breaking block button..."}
+function _trifles:log {text:"Breaking block button...",meta:"_trifles:block_button/break"}
 
 function _trifles:block_button/reset
 loot spawn ~ ~ ~ loot trifles:interaction_block

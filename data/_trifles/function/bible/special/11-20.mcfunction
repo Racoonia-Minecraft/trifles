@@ -1,3 +1,5 @@
+function _trifles:log {text:"Telling special quote between 11 and 20...",meta:"_trifles:bible/special/11-20"}
+
 # Racoonia quotes
 execute if score #verse trifles.temp matches 11 run tellraw @s [{"text":"“Wo finde ich diesen 'Any Key'?” "},{"text":"(maxderprof 1:22)", "color": "gray"}]
 execute if score #verse trifles.temp matches 12 run tellraw @s [{"text":"“Stimmt ja, meine Seele hat ja keine Gedanken” "},{"text":"(Michael 7:23)", "color": "gray"}]

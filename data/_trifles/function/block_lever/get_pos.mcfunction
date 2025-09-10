@@ -1,4 +1,4 @@
-function _trifles:log {text:"Getting block lever position..."}
+function _trifles:log {text:"Getting block lever position...",meta:"_trifles:block_lever/get_pos"}
 
 execute if block ~ ~ ~ lever[face=wall,facing=north] positioned ~ ~ ~1 run function _trifles:block_lever/check
 execute if block ~ ~ ~ lever[face=wall,facing=south] positioned ~ ~ ~-1 run function _trifles:block_lever/check

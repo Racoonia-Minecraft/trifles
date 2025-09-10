@@ -1,3 +1,5 @@
+function _trifles:log {text:"Telling special quote between 31 and 40...",meta:"_trifles:bible/special/31-40"}
+
 # Racoonia quotes
 execute if score #verse trifles.temp matches 31 run tellraw @s [{"text":"“Simon, nimm mal den Dick aus dem Mund!” "},{"text":"(Michael 2:22)", "color": "gray"}]
 execute if score #verse trifles.temp matches 32 run tellraw @s [{"text":"“Der ist aber auch nicht das Grün vom Blatt” "},{"text":"(Racooder 3:22)", "color": "gray"}]

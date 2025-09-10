@@ -1,4 +1,4 @@
-function _trifles:log {text:"Getting the new dice position..."}
+function _trifles:log {text:"Getting the new dice position...",meta:"_trifles:dice/get_pos"}
 
 execute if score #dice_count trifles.temp matches 0 run function _trifles:dice/spawn_first
 execute unless entity @s[tag=trifles.dice_spawned] unless entity @e[type=interaction,tag=trifles.dice_interaction,distance=...1] run function _trifles:dice/spawn

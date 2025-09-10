@@ -1,4 +1,4 @@
-function _trifles:log {text:"Handling block lever click..."}
+function _trifles:log {text:"Handling block lever click...",meta:"_trifles:block_lever/click"}
 
 scoreboard players add @s trifles.block_lever 1
 

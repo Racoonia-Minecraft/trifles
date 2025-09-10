@@ -15,4 +15,4 @@ function _trifles:main
 function _trifles:animation_loop
 function _trifles:pocketcat/check
 
-function _trifles:log {text:"Finished loading"}
+function _trifles:log {text:"Finished loading",meta:"_trifles:load"}

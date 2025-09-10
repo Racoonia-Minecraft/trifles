@@ -1,4 +1,4 @@
-function _trifles:log {text:"Handling dice interaction..."}
+function _trifles:log {text:"Handling dice interaction...",meta:"_trifles:dice/interaction"}
 
 scoreboard players set #sneaking trifles.temp 0
 execute as @a[distance=..6,tag=racoonia.interactor] if predicate racooniacore:sneaking run scoreboard players set #sneaking trifles.temp 1

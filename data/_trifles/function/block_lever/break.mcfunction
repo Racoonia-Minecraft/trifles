@@ -1,4 +1,4 @@
-function _trifles:log {text:"Breaking block lever..."}
+function _trifles:log {text:"Breaking block lever...",meta:"_trifles:block_lever/break"}
 
 function _trifles:block_lever/off
 loot spawn ~ ~ ~ loot trifles:interaction_block

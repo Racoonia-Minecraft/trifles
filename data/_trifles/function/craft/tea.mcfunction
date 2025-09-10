@@ -1,3 +1,5 @@
+function _trifles:log {text:"Crafting tea...",meta:"_trifles:craft/tea"}
+
 kill @e[type=item,nbt={Item:{id:"minecraft:glass_bottle",components:{"minecraft:custom_data":{trifles:{is_gadget:1b,type:"cup"}}},count:1}},distance=..0.5,sort=nearest,limit=1]
 kill @e[type=item,nbt={Item:{id:"minecraft:glow_berries",count:1}},distance=..0.5,sort=nearest,limit=1]
 kill @e[type=item,nbt={Item:{id:"minecraft:sweet_berries",count:1}},distance=..0.5,sort=nearest,limit=1]

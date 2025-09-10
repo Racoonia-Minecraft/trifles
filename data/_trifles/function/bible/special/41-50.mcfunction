@@ -1,3 +1,5 @@
+function _trifles:log {text:"Telling special quote between 41 and 50...",meta:"_trifles:bible/special/41-50"}
+
 # Racoonia quotes
 execute if score #verse trifles.temp matches 41 run tellraw @s [{"text":"“Schiebe ich mir lieber einen Hamster in den Arsch oder ficke ich lieber die falsche Schwester” "},{"text":"(Michael 10:22)", "color": "gray"}]
 execute if score #verse trifles.temp matches 42 run tellraw @s [{"text":"“Ich nehme die Zähennägel eines 90 jährigen Mannes” "},{"text":"(jonmoja 10:22)", "color": "gray"}]

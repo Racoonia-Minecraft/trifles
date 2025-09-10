@@ -1,3 +1,5 @@
+function _trifles:log {text:"Telling special quote between 1 and 10...",meta:"_trifles:bible/special/1-10"}
+
 # Bible quotes
 execute if score #verse trifles.temp matches 1 run tellraw @s [{"text":"“Ich lauf über!” "},{"text":"(Racooder 6:23)", "color": "gray"}]
 execute if score #verse trifles.temp matches 2 run tellraw @s [{"text":"“Du kannst auch einfach 20% besser werden!” "},{"text":"(maxderprof 3:23)", "color": "gray"}]

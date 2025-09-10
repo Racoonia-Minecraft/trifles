@@ -1,4 +1,4 @@
-function _trifles:log {text:"Switching block lever on..."}
+function _trifles:log {text:"Switching block lever on...",meta:"_trifles:block_lever/on"}
 
 execute if block ~1 ~ ~ target[power=0] run setblock ~1 ~ ~ target[power=15]
 execute if block ~-1 ~ ~ target[power=0] run setblock ~-1 ~ ~ target[power=15]

@@ -1,3 +1,5 @@
+function _trifles:log {text:"Telling bible quote between 11 and 20...",meta:"_trifles:bible/normal/11-20"}
+
 # Bible quotes
 execute if score #verse trifles.temp matches 11 run tellraw @s [{"text":"“Ein Fest ist zum Lachen da, Wein macht das Leben fröhlich, und Geld ist die Antwort auf alles.” "},{"text":"(Sirach 10:19)", "color": "gray"}]
 execute if score #verse trifles.temp matches 12 run tellraw @s [{"text":"“Es gibt keine größere Liebe, als wenn einer sein Leben für seine Freunde hingibt.” "},{"text":"(Johannes 15:13)", "color": "gray"}]

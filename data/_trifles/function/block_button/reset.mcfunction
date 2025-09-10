@@ -1,4 +1,4 @@
-function _trifles:log {text:"Resetting block button..."}
+function _trifles:log {text:"Resetting block button...",meta:"_trifles:block_button/reset"}
 
 execute if block ~1 ~ ~ target[power=15] run setblock ~1 ~ ~ target[power=0]
 execute if block ~-1 ~ ~ target[power=15] run setblock ~-1 ~ ~ target[power=0]

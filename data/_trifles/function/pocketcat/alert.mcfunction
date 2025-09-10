@@ -1,4 +1,4 @@
-function _trifles:log {text:"Running pocketcat alert..."}
+function _trifles:log {text:"Running pocketcat alert...",meta:"_trifles:function/pocketcat/alert"}
 
 function racooniacore:coin_toss
 execute if score @s racoonia.random matches 0 run playsound entity.cat.ambient master @s ~ ~ ~ 0.5 1

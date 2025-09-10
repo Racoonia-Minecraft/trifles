@@ -1,3 +1,5 @@
+function _trifles:log {text:"Telling bible quote between 21 and 30...",meta:"_trifles:bible/normal/21-30"}
+
 # Bible quotes
 execute if score #verse trifles.temp matches 21 run tellraw @s [{"text":"“Und Gott sprach: Es werde Licht! Und es ward Licht.” "},{"text":"(Genesis 1:3)", "color": "gray"}]
 execute if score #verse trifles.temp matches 22 run tellraw @s [{"text":"“Der HERR ist mein Hirte, nichts wird mir fehlen.” "},{"text":"(Psalm 23:1)", "color": "gray"}]

@@ -1,4 +1,4 @@
-function _trifles:log {text:"Handling bible use..."}
+function _trifles:log {text:"Handling bible use...",meta:"_trifles:bible/handle"}
 
 tag @s remove trifles.special_verse
 execute if predicate _trifles:bible_special run tag @s add trifles.special_verse

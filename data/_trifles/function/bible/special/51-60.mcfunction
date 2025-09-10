@@ -1,3 +1,5 @@
+function _trifles:log {text:"Telling special quote between 51 and 60...",meta:"_trifles:bible/special/51-60"}
+
 # Racoonia quotes
 execute if score #verse trifles.temp matches 51 run tellraw @s [{"text":"“Warum hab ich eigentlich so wenig Geld?” "},{"text":"(maxderprof 7:23)", "color": "gray"}]
 execute if score #verse trifles.temp matches 52 run tellraw @s [{"text":"“Reto: Nenne einen Kosenamen. Simon: 'BUBAZ!'” "},{"text":"(simon10247 7:23)", "color": "gray"}]

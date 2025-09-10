@@ -1,4 +1,4 @@
-function _trifles:log {text:"Getting special verse..."}
+function _trifles:log {text:"Getting special verse...",meta:"_trifles:bible/special_verse"}
 
 execute store result score #verse trifles.temp run random value 1..61
 

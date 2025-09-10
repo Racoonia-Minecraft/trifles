@@ -1,4 +1,4 @@
-function _trifles:log {text:"Spawning dice..."}
+function _trifles:log {text:"Spawning dice...",meta:"_trifles:dice/spawn"}
 
 tag @s add trifles.dice_spawned
 

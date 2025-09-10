@@ -1,3 +1,5 @@
+function _trifles:log {text:"Telling special quote between 21 and 30...",meta:"_trifles:bible/special/21-30"}
+
 # Racoonia quotes
 execute if score #verse trifles.temp matches 21 run tellraw @s [{"text":"“Dein Arsch war in der Schüssel drin, ich hab's gesehen” "},{"text":"(gotura 5:23)", "color": "gray"}]
 execute if score #verse trifles.temp matches 22 run tellraw @s [{"text":"“Lass mal stehen, damit er auch guten Stuhl hat!” "},{"text":"(jonmoja 5:23)", "color": "gray"}]

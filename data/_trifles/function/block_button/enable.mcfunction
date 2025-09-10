@@ -1,4 +1,4 @@
-function _trifles:log {text:"Handling block button click..."}
+function _trifles:log {text:"Handling block button click...",meta:"_trifles:block_button/enable"}
 
 execute if block ~1 ~ ~ target[power=0] run setblock ~1 ~ ~ target[power=15]
 execute if block ~-1 ~ ~ target[power=0] run setblock ~-1 ~ ~ target[power=15]

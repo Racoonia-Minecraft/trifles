@@ -1,4 +1,4 @@
-function _trifles:log {text:"Breaking dice..."}
+function _trifles:log {text:"Breaking dice...",meta:"_trifles:dice/break"}
 
 kill @n[type=item_display,tag=trifles.dice_display]
 

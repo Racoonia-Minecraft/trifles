@@ -1,4 +1,4 @@
-function _trifles:log {text:"Spawning block lever..."}
+function _trifles:log {text:"Spawning block lever...",meta:"_trifles:block_lever/spawn"}
 
 tag @s add trifles.interaction_check_success
 summon interaction ~ ~ ~ {Tags:["trifles.block_lever_interaction","trifles.block_interaction","racoonia.block"],width:1.05f,height:1.05f}

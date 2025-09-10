@@ -1,1 +1,1 @@
-$function racooniacore:debug/log_styled {text:'{"text":"[","color":"gray"},{"text":"Trifles","color":"aqua"},{"text":"] ","color":"gray"},{"text":"$(text)","color":"white"}'}
+$function racooniacore:debug/log_meta {text:"$(text)",category:"Trifles",meta:"$(meta)"}

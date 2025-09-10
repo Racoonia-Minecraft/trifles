@@ -1,4 +1,4 @@
-function _trifles:log {text:"Detected fungus click"}
+function _trifles:log {text:"Detected fungus click",meta:"_trifles:function/detected_fungus_click"}
 
 execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{trifles:{type:"pocketcat"}}}}}] at @s run function _trifles:pocketcat/toggle
 execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{trifles:{type:"megastew"}}}}}] at @s run function _trifles:megastew/handle

@@ -1,4 +1,4 @@
-function _trifles:log {text:"Placing dice..."}
+function _trifles:log {text:"Placing dice...",meta:"_trifles:dice/place"}
 
 scoreboard players set #dice_count trifles.temp 0
 execute at @n[type=marker,tag=trifles.dice_center,distance=...5] as @e[type=interaction,tag=trifles.dice_interaction,distance=...5] run scoreboard players add #dice_count trifles.temp 1
